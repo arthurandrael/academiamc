@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMC - Militar</title>
+
+    <link rel="stylesheet" href="../../style.css">
+    <link rel="stylesheet" href="../viagens.css">
+
+
+    <style>
+
+        #image {
+            position: absolute;
+            width: 25%;
+            height: 43%;
+            border-radius: 50%;
+            left: 38vw;
+            top: 12vw;
+        }
+        .locais {
+            height: 115%;
+            width: 101.1%;
+        }
+        #carreira {
+            width: 50%;
+            position: absolute;
+            color: whitesmoke;
+            text-align: justify;
+            font-size: 1.2vw;
+            top: 70%;
+            left: 25%;
+            letter-spacing: .1vw;
+            line-height: 1.7vw;
+            font-weight: 100;
+        }
+        strong {font-weight: 900;}
+
+    </style>
+</head>
+<body>
+    <main class="main">
+        <header>
+            <menu>
+                <ul>
+                    <li><a href="../../index.html">Inicio</a></li>
+                    <li><a href="../viagens.html">Viagens</a></li>
+                    <li><a href="../Missões/missoes.html">Missões</a></li>
+                    <li><a href="#">Militar</a></li>
+                </ul>
+            </menu>
+        </header>
+
+        <section class="Viagem">
+            <h1>Carreira Militar</h1>
+
+            <p>Nesta seção encontra-se informações sobre as carreiras militares mais conhecidas das Forças Armadas do Brasil. Tanto as carreiras no Exército Brasileiro, na Força Aérea Brasileira e na Marinha do Brasil, os principais concursos e seus requisitos.</p>
+            <img src="../../images/FA-logo.png" alt="" id="EB-logo" style="box-shadow: none; letter-spacing: .1vw;">
+
+        </section>
+
+
+        <section class="locais">
+
+            <div>
+                <h1>ESA (Escola de Sargentos das Armas)</h1>
+
+                <div id="ant" onclick="Back()"><p>-</p></div>
+
+                <img src="../../images/mil1.png" alt="" id="image">
+
+                <div id="prox" onclick="Next()"><p>+</p></div>
+
+                <p id="carreira"><strong>Formação:</strong> Prepara Sargentos de carreira para o Exército Brasileiro.</br> <strong>Requisitos:</strong><br>Nível médio completo ou matrícula no último ano do ensino médio.<br><strong>Idade:</strong> Mínima de 17 e máxima de 24 anos (área geral).<br><strong>Altura mínima:</strong> 1,60 m para homens e 1,55 m para mulheres.<br><strong>Restrições de tatuagens:</strong> Não possuir tatuagens ofensivas.<br><strong>Estado civil:</strong> Não ter filhos ou dependentes e não ser casado.
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="mil.js"></script>
+</body>
+</html>

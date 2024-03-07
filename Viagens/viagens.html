@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMC - Viagens</title>
+    <link rel="stylesheet" href="viagens.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <main class="main">
+        <header>
+            <menu>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./Viagens/viagens.html">Viagens</a></li>
+                    <li><a href="./Missões/missoes.html">Missões</a></li>
+                    <li><a href="./Militar/mil.html">Militar</a></li>
+                </ul>
+            </menu>
+        </header>
+
+        <section class="Viagem">
+            <h1>Viagens AMC</h1>
+
+            <p>Nesta seção encontra-se os registros de Viagens e Excursões realizadas pela Academia Major Ci, Entre as principais delas estão as visitas ao <strong>Quartel da Policia Militar de Alagoas</strong> e ao <strong>Quartel do Exército Brasileiro</strong>, além de outras. Com o objetivo de mostrar a perspectiva real de como é a vida dentro dessas carreiras, despertando assim o interesse dos alunos pela carreira militar.</p>
+
+            <img src="imgVi/EB1.jpeg" alt="" id="EB-logo">
+
+            <img src="imgVi/eb-logo.png" class="logo" id="ExBr" alt="" onclick="Eb()">
+            <img src="imgVi/pmal-logo.png" class="logo" id="PmAl" alt="" onclick="Pmal()">
+        </section>
+
+
+        <section class="locais">
+
+            <div>
+                <h1>10Esqd CavalariaMec Exército</h1>
+
+                <div id="ant" onclick="Back()"><p>-</p></div>
+                <div id="ant2"onclick="BackPM()"><p>-</p></div>
+
+                <img src="imgVi/EB1.jpeg" alt="" id="image">
+
+                <div id="prox" onclick="Next()"><p>+</p></div>
+                <div id="prox2" onclick="NextPM()"><p>+</p></div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="viagens.js"></script>
+</body>
+</html>

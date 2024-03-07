@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+* {margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; box-sizing: border-box}
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;300;400;500&family=Oswald:wght@200..700&family=Quicksand:wght@300;400&display=swap');
+
+body {width: 100vw; height: 100vh; overflow-x: hidden;}
+
+.main {
+    width: 100%; height: 100%;
+    background: url('../images/fundo2.jpeg') #023806 no-repeat center center;
+    background-size: cover;
+}
+
+.Viagem{
+    color: whitesmoke;
+
+}
+
+.Viagem h1 {
+    position: absolute;
+    left: 10%;
+    font-size: 5vw;
+    letter-spacing: 1.3vw;
+    font-weight: lighter;
+    text-shadow: 3px 3px 10px rgb(68, 124, 33);
+    top: 15%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Viagem p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 35%;
+    text-align: justify;
+    position: absolute;
+    font-size: 1.4vw;
+    top: 35%;
+    left: 10%;
+    line-height: 2vw;
+    letter-spacing: .15vw;
+    text-shadow: .2vw .2vw .5vw rgba(0, 0, 0, 0.893);
+}
+
+#EB-logo {
+    width: 30vw;
+    height: 30vw;
+    display: flex;
+    position: absolute;
+    top: 25%;
+    right: 12%;
+    box-shadow: .3vw .3vw .9vw rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.logo {
+    position: absolute;
+    left: 10%;
+    top: 77%;
+    width: 3%;
+    cursor: pointer;
+}
+#PmAl {
+    margin: 0 0 0 6%;
+}
+#ExBr:hover, #PmAl:hover {
+    width: 4%;
+}
+
+
+.locais {
+    position: absolute;
+    top: 100%;
+    height: 100%;
+    background-color: black;
+}
+.locais div {
+    width: 60%;
+    height: 90%;
+    margin: 5vw auto;
+    text-align: center;
+}
+.locais h1 {
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 3vw;
+    margin: 0 0 1vw;
+    top: 15%;
+    left: 5%;
+}
+.locais img {
+    box-shadow: .1vw .1vw 1vw rgba(255, 255, 255, 0.558);
+    position: absolute;
+    left: 22.2vw;
+    width: 55%;
+    height: 75%;
+    border-radius: .7vw;
+}
+
+
+#ant, #prox, #ant2, #prox2 {
+    width: 5%;
+    height: 10%;
+    cursor: pointer;
+}
+#ant, #ant2 {
+    position: absolute;
+    display: flex;
+    left: 10%;
+    top: 40%;
+}
+#prox, #prox2 {
+    position: absolute;
+    display: flex;
+    left: 87vw;
+    top: 40%;
+}
+#ant p, #prox p, #ant2 p, #prox2 p {
+    color: whitesmoke;
+    height: 10%;
+    font-size: 5vw;
+}
